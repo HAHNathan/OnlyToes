@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+}
+
+.left-header{
+    background-color: #04a2eb;
+    background-image: url(./images/toes.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    color: white;
+    text-align: center
+}
+.header-p{
+    font-size: 2.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(160, 211, 231);
+    font-size: 4rem;
+    font-family: sans-serif;
+}
+.toes{
+    color: rgb(255, 255, 255);
+    
+}
+
+.tiptoes{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.button-container{
+    text-align: center;
+}
+
+
+.signin {
+    height: 700px;
+    width: 400px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    padding: 20px; /* Add some internal padding */
+    gap: 30px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px; /* Slight rounding for a modern look */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.signin p {
+    font-size: 1rem; /* Increase font size for readability */
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; /* Center-align the login text */
+    color: #2a2a2a; /* Darker text color */
+    margin: 0;
+    margin-top:80px;
+}
+
+.signin input {
+    height: 45px;
+    border: 1px solid rgb(240, 240, 240);
+    outline: none;
+    border-radius: 10px; /* Slight rounding for a smooth look */
+    padding: 10px; /* Adequate padding for ease of use */
+    font-size: 1rem; /* Maintain font size for consistency */
+    text-indent: 10px;
+}
+
+.login-btn {
+    border: none; /* Remove button border */
+    padding: 17px; /* Adequate padding for a clickable area */
+    border-radius: 50px; /* Slight rounding for buttons */
+    background-color: #dee0e1; /* Button background color */
+    color: white; /* Button text color */
+    font-size: 1rem; /* Maintain font size for consistency */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+.mini {
+    border: none;
+    background-color: transparent; /* Transparent background for mini buttons */
+    color: #74b2f4; /* Keep the color consistent with the main button */
+    font-size: 1.2rem; /* Slightly smaller font for mini buttons */
+    cursor: pointer; /* Indicate clickability */
+}
+
+.socials{
+    border: none; /* Remove button border */
+    padding: 17px; /* Adequate padding for a clickable area */
+    border-radius: 50px; /* Slight rounding for buttons */
+    color: white; /* Button text color */
+    font-size: 1rem; /* Maintain font size for consistency */
+    font-weight: bold;
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+.twitter{
+    background-color: #04a2eb; /* Button background color */
+}
+
+.google{
+    background-color: #0429e3b9; /* Button background color */
+}
+
+.passwordless{
+    background-color: #059be7; /* Button background color */
+}
+
+.post{
+    border: 1px solid black;
+}
+
+.latest-post{
+    display: flex;
+    justify-content: center;
+}
+
+.user-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+
+}
+
+.username{
+    margin-left: 10px;
+}
+.at-username{
+    grid-column: span 1/1;
+    margin-left: 10px;
+}
+.time{
+    grid-column: span 1/5;
+    grid-row: span 1/1;
+    margin-right: 10px;
+}
